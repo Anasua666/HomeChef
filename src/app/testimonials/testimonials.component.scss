@@ -1,0 +1,42 @@
+.kuchbi img{
+    width:20%;
+    height: 55px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+blockquote{
+    border: 0;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    line-height: 145%;
+    display: block;
+    position: static;
+    overflow: hidden;
+}
+
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+}
+
+blockquote:before { 
+    content:"\201C"; 
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 10px;
+}
+
+
+ .section-testimonials h2{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.kuchbi{
+    width: 33%;
+    display: inline-block;
+}

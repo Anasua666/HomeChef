@@ -1,0 +1,36 @@
+<mat-toolbar class="navbar">
+    <div fxHide.gt-xs>
+      <button mat-icon-button (click)="onToggleSidenav()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+    <div class="logo">
+      <a routerLink="/"><img src="assets/logo.png"></a>
+    </div>
+    <!-- <mat-form-field>
+      <mat-select-search></mat-select-search>
+    </mat-form-field> -->
+
+    <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
+      <ul fxLayout fxLayoutGap="10px" class="navigation-items">
+        <li>
+          <button type="button" class="navbtn" *ngIf="!isAuth" (click)="openSignUpcomponent()">
+            Signup
+           </button>
+        </li>
+        <li>
+         <button *ngIf="!isAuth" class="navbtn" (click)="openLogInComponent()" data-dismiss="modal">Log In</button>
+        </li>
+        <li *ngIf="isAuth">
+          <a class="navbtn" routerLink="/training">Training</a>
+        </li>
+        <li>
+          <a class="navbtn" routerLink="/contact">Contact Us</a>
+        </li>
+        <li *ngIf="isAuth">
+          <a style="cursor: pointer" class="navbtn" (click)="onLogout()">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </mat-toolbar>
+  

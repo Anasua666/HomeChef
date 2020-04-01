@@ -1,0 +1,50 @@
+.navigation-items{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    }
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    a:hover,a:active{
+        color:lightgrey;
+    }
+
+    input{
+        font-size: 10px;
+        line-height: 1;
+        padding: 10 20px;
+        padding-left: 1.5rem;
+        border: 10px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #444 !important;
+            opacity:1!important;
+            height: 10%;
+            padding: 10px 4px;
+            display: flex;
+            position: sticky;
+            top: 0px;
+            padding-bottom: 6px;
+            margin: 0px;
+            }
+
+          .navbar .navbtn{
+            font-size: 16px;  
+            border: none;
+            outline: none;
+            color: #ff9525;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+            height: 5px;
+            padding-right: 40px;
+            }
+            .logo{
+                height: 50px;
+                width: 45px;
+            }

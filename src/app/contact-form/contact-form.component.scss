@@ -1,0 +1,61 @@
+.section-form .span-1-of-2{
+    width: 32.26%;
+}
+
+.section-form .span-2-of-3{
+    width: 55.23%;
+    display: inline-block;
+}
+
+.section-form .span-3-of-3{
+    width: 100%;
+}
+.section-form{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select{
+width: 100%;
+padding:7px;
+border-radius: 3px;
+border: 1px solid rgba(241, 236, 236, 0.884);
+}
+
+textarea{
+    height: 100px;
+}
+
+*:focus{outline: none}
+
+div{
+    padding: 3px 0px;
+    font-size: small;
+    color:#bc66f5 ;
+    font-weight: 500;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fd8300;
+    padding-top: 2px;
+}
+
+@media only screen and (max-width: 480px){
+    section{
+        padding: 25px 0;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    }
+
+
